@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Blog;
 
 use Illuminate\Http\Request;
 
@@ -20,6 +21,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        return view('post');
+        $data = Blog::where('id',20)->first();
+        return view('post',compact('data'));
     }
 }
