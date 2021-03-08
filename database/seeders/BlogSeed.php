@@ -20,7 +20,7 @@ class BlogSeed extends Seeder
             'judul'=>'Simple and useful HTML layout',
             'isi'=>'There is a clickable image with beautiful hover effect and active title link for each post item. Left side is a sticky menu bar. Right side is a blog content that will scroll up and down.',
             'tanggal'=>'2020-06-24',
-            'pembuat'=>'by Luluk Mufida'
+            'pembuat'=>'by Naily Ikmalul Insiyah'
             ]
         );
     }
